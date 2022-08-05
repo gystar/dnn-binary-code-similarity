@@ -1,5 +1,9 @@
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 print tf.__version__
+
+
 #import matplotlib.pyplot as plt
 import numpy as np
 from datetime import datetime

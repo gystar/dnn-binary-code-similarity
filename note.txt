@@ -1,0 +1,6 @@
+python=2.7
+pkg-resources==0.0.1:
+https://github.com/gystar/dnn-binary-code-similarity.git
+
+tensorflow-tensorboard==0.4.0rc3
+tensorflow-gpu=2.1.0

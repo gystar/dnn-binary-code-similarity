@@ -1,4 +1,7 @@
-import tensorflow as tf
+#import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
+
 #import matplotlib.pyplot as plt
 import numpy as np
 import datetime
@@ -100,7 +103,8 @@ class graphnn(object):
     
     def init(self, LOAD_PATH, LOG_PATH):
         config = tf.ConfigProto()
-        config.gpu_options.allow_growth = True
+        config.gpu_options.allow_growth = True   
+        config.allow_soft_placement=True
         sess = tf.Session(config=config)
         saver = tf.train.Saver()
         self.sess = sess

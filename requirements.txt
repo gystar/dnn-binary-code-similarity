@@ -8,12 +8,11 @@ Markdown==2.6.10
 mock==2.0.0
 numpy==1.13.3
 pbr==3.1.1
-pkg-resources==0.0.0
 protobuf==3.5.0.post1
 scikit-learn==0.19.1
 scipy==1.0.0
 six==1.11.0
 sklearn==0.0
-tensorflow-gpu==1.4.1
-tensorflow-tensorboard==0.4.0rc3
 Werkzeug==0.13
+tensorflow-tensorboard==0.4.0rc3
+tensorflow-gpu=2.1.0
